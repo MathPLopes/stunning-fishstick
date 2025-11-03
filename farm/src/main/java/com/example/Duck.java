@@ -18,12 +18,4 @@ public class Duck extends Animal {
         return duckCount;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 }

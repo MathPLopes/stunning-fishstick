@@ -17,12 +17,4 @@ public class Cat extends Animal {
         return catCount;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 }

@@ -16,12 +16,4 @@ public class Fish extends Animal {
     public static int getCount() {
         return fishCount;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }

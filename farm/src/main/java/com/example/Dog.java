@@ -16,12 +16,4 @@ public class Dog extends Animal {
     public static int getCount() {
         return dogCount;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }
