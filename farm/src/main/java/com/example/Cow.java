@@ -1,8 +1,7 @@
 package com.example;
 
 public class Cow extends Animal {
-
-    protected static int cowCount;
+    private static int cowCount;
 
     public Cow(String name) {
         super(name);
@@ -11,7 +10,7 @@ public class Cow extends Animal {
 
     @Override
     public String talk() {
-        return this.name + " Muuu!";
+        return "Muuu!";
     }
 
     public static int getCount() {

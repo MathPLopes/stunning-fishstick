@@ -1,8 +1,8 @@
 package com.example;
 
 public abstract class Animal implements Talkable {
-    protected static int count;
-    protected String name;
+    private static int count;
+    private String name;
 
     public Animal(String name) {
         this.name = name;

@@ -10,6 +10,6 @@ public class CatTest {
     void testTalk(){
         Cat cat = new Cat("Bigode");
         String actual = cat.talk();
-        assertEquals("Bigode Meow!", actual);
+        assertEquals("Meow!", actual);
     }
 }
